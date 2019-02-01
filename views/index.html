@@ -2,13 +2,18 @@
 <html lang="en">
     <head>
         <title>Burgeeeeer</title>
+        <link rel="stylesheet" type="text/css" href="/css/burger.css">
     </head>
     <body>
       <main>
-        <h1>Welcome to Hamburger of Hamburg</h1>
+        <section class="header">
+          <h1>Welcome to Hamburger of Hamburg</h1>
+          <img src="https://www.freewordpressheaders.com/wp-content/gallery/food-gallery/burger-sandwich-header.jpg"></img>
+        </section class="header">
+        <section class="select">
         <h2>Select burger</h2>
-        <p>adsfsadf</p>
-        <table>
+        <p>Burger select goes here</p>
+        <table id="burgers">
           <thread>
             <tr>
               <th>Hammy</th>
@@ -37,16 +42,28 @@
               </td>
               <td>
                 <ul>
-                  <li>Grammy awarded</li>
-                  <li>Hammy</li>
-                  <li>Double wammy</li>
+                  <li>Expensive</li>
+                  <li>
+                    <dt class="special_ing">
+                      CONTAINS GLUTEN
+                    </dt>
+                  </li>
+                  <li>
+                    <dt class="special_ing">
+                      CONTAINS LOVE
+                    </dt>
+                  </li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li>Grammy awarded</li>
-                  <li>Hammy</li>
-                  <li>Double wammy</li>
+                  <li>Baked with extra non-burgery goodness</li>
+                  <li>NEW!!!</li>
+                  <li>
+                    <dt class="special_ing">
+                      CONTAINS LOVE
+                    </dt>
+                  </li>
                 </ul>
               </td>
             <tr>
@@ -58,6 +75,8 @@
             </tr>
           </tfoot>
         </table>
+      </section>
+      <section class="delivery">
         <h2>Customer Information</h2>
         <p>Info</p>
 
@@ -90,22 +109,22 @@
           </select>
         </p>
 
-          <form action="">
+          <form>
             <label for="gender">Gender</label><br>
             <input type="radio" name="gender" value="male">
               Male <br>
             <input type="radio" name="gender" value="female">
               Female<br>
-            <input type="radio" name="gender" value="other">
+            <input type="radio" name="gender" value="other" checked="checked">
               Other<br>
           </form>
 
-          <input type="submit" value="Place Order">
-
+          <button type="submit">Place order</button>
 
         <hr>
         <p>Copyright Tamrannman</p>
         <a href="/map" target="_blank">Open map in new window</a>.
+      </section>
       </main>
     </body>
 </html>

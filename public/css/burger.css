@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");
+
+body {
+    font-family: arial;
+    font-size: 14pt;
+    background-image: url(https://i.imgur.com/FAtd0hv.jpg);
+}
+.header {
+  height: 300pt;
+  overflow: hidden;
+  padding: 0px;
+}
+.header > img{
+  height: auto;
+  width: 100%;
+  text-align: center;
+  opacity: 0.75;
+
+}
+h1 {
+  position: absolute;
+  color: #FF5555;
+  opacity: 1;
+}
+
+
+a, strong, em {
+    color: #0099ff;
+}
+
+.special_ing {
+    color: #ff5500;
+    font-weight: bold;
+}
+
+.select {
+  text-align: left;
+}
+
+.delivery{
+
+}
+
+button {
+    margin: 20px 0px;
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  align: center;
+
+}
+input[type*="radio"]{
+  font-weight: normal;
+  background-color: green;
+}
+
+td {
+  padding: 5px;
+  width: 22%;
+  align: center;
+  border-left: 4px solid #EEEEEE;
+}
+
+section {
+  margin: 20px;
+  border: 5px solid #ff4422;
+  padding: 10px;
+  background-color: #DDDDDD;
+}
+
+#burgers {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+p.info,
+#login p {
+    width: 80%;
+    margin: 1vw auto;
+}
