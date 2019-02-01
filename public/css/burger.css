@@ -4,14 +4,14 @@
 body {
     font-family: arial;
     font-size: 14pt;
-    background-image: url(https://i.imgur.com/FAtd0hv.jpg);
+    background-image: url(/img/sky.jpg);
 }
-.header {
-  height: 300pt;
+header {
   overflow: hidden;
   padding: 0px;
+  text-align:center;
 }
-.header > img{
+header > img{
   height: auto;
   width: 100%;
   text-align: center;
@@ -21,7 +21,36 @@ body {
 h1 {
   position: absolute;
   color: #FF5555;
+  font-size: 39pt;
   opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -500%);
+}
+
+.wrapper {
+     display: grid;
+     grid-gap: 0px;
+     grid-template-columns: 33.3333333% 33.333333333% 33.333333333%;
+     background-color: #fff;
+     color: #FFFFFF;
+ }
+
+ .box {
+     border-radius: 0px;
+     padding: 20px;
+     background-color: #333333;
+ }
+
+ .a {
+    grid-column: 1;
+}
+.b {
+    grid-column: 2 ;
+}
+.c {
+    grid-column: 3 ;
+
 }
 
 
@@ -46,7 +75,7 @@ button {
     margin: 20px 0px;
 }
 button:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: #FF4422;
   color: white;
   cursor: pointer;
 }
